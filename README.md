@@ -27,11 +27,11 @@ ProsePredictor is a customizable next word prediction model that uses LSTM and G
 ---------------------------------
 1. Clone the repository:
     ```bash
-    git clone https://github.com/BhuvanKapoor/ProsePredict
+    git clone https://github.com/BhuvanKapoor/ProsePredictor-Next-Word-Prediction-Model.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd ProsePredict
+    cd ProsePredictor-Next-Word-Prediction-Model
     ```
 3. Install the required packages
     ```bash
@@ -54,7 +54,7 @@ ProsePredictor is a customizable next word prediction model that uses LSTM and G
     ```bash
     python run main.py
     ```
-* While training you can reffer log file generated in log folder with current time stamp and date name to see whats happening while training and also to debug.
+* While training you can refer log file generated in log folder with current time stamp and date name to see whats happening while training and also to debug.
 
 8. run streamlit application
     ```bash

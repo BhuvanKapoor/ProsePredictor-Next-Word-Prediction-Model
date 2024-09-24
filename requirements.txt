@@ -1,0 +1,6 @@
+numpy==1.26.4
+scikit-learn
+setuptools
+nltk
+tensorflow==2.17.0
+streamlit

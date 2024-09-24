@@ -2,6 +2,9 @@
 <div align="center">
   <img src="readme_data/ProsePredictor.jpeg" alt="Designer" width="500"/>
 </div>
+<div align="center">
+    <a href="https://bhuvankapoor-prosepredictor.streamlit.app/">Try Now!!</a>
+</div>
 
 ## Table of content
 --------------

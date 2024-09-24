@@ -64,7 +64,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 st.markdown(
-    "<p style='text-align: center'>This project is fully customizable. Follow a few simple steps to train your own model on your data for next word prediction. Want to know how? Check out the instructions on <a href='https://github.com/Aman-Vishwakarma1729/PDFy-chat-with-pdf' target='_blank'><b>GitHub</b></a>.</p>",
+    "<p style='text-align: center'>This project is fully customizable. Follow a few simple steps to train your own model on your data for next word prediction. Want to know how? Check out the instructions on <a href='https://github.com/BhuvanKapoor/ProsePredictor-Next-Word-Prediction-Model' target='_blank'><b>GitHub</b></a>.</p>",
     unsafe_allow_html=True,
 )
 st.markdown(

@@ -39,7 +39,18 @@
  \begin{IEEEkeywords}Next word prediction, Neural Network, LSTM, GRU
  \end{IEEEkeywords}
 
-\section*{Literature Review}Raffel, C., et al. (2019) introduces the T5 model, it compares the performance of Transformer-based models with LSTMs and GRUs for next-word prediction tasks. The study finds that while LSTMs and GRUs are less parameter-heavy, they remain strong contenders in specific contexts where compute resources are limited.
+\section{Introduction}: In the age of intelligent systems and human-computer interaction, the ability to predict the next word in a sequence has become a cornerstone for various applications such as text autocompletion, conversational agents, and content generation. Predictive text models improve writing efficiency, enhance user experience, and streamline the communication process by suggesting relevant words based on previously typed text. The core of such systems lies in their ability to understand and model the context and semantics of a given sequence, allowing them to make accurate predictions.
+
+The development of ProsePredictor aims to address the growing demand for flexible, user-adaptive next-word prediction models. Unlike traditional models, which are often trained on generic datasets and may lack personalization, ProsePredictor integrates the power of two advanced recurrent neural network (RNN) architectures—Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU)—to enhance the contextual understanding of text. These architectures are well-suited for sequence prediction tasks due to their ability to handle long-range dependencies, thus capturing intricate relationships between words in a sentence.
+
+Additionally, ProsePredictor leverages word embedding techniques such as Word2Vec and GloVe to convert words into dense vector representations. These embeddings allow the model to learn and encode semantic and syntactic relationships between words, making it more effective in understanding contextual nuances. By incorporating both LSTM and GRU networks along with word embeddings, the model strikes a balance between computational efficiency and predictive accuracy.
+
+What sets ProsePredictor apart is its customizable nature. The model is designed to be easily adaptable to user-specific datasets, enabling personalized text generation based on individual writing patterns. This flexibility opens new possibilities for user-driven applications, where the model can be fine-tuned on a wide range of domains, from academic writing to creative content generation.
+
+This paper explores the architecture and training processes underlying ProsePredictor, evaluates its performance on standard and user-defined datasets, and examines its potential applications in real-world scenarios. The objective is to demonstrate how a hybrid approach utilizing LSTM, GRU, and word embedding techniques can create an efficient, adaptable, and context-aware predictive text system.
+
+
+\section{Literature Review}Raffel, C., et al. (2019) introduces the T5 model, it compares the performance of Transformer-based models with LSTMs and GRUs for next-word prediction tasks. The study finds that while LSTMs and GRUs are less parameter-heavy, they remain strong contenders in specific contexts where compute resources are limited.
 
 Tay, Y., et al. (2020) primarily focuses on Transformers, it compares Transformer-based architectures with LSTM and GRU for sequence-based tasks like next-word prediction. It demonstrates that while Transformers are state-of-the-art for large-scale datasets, LSTMs and GRUs remain competitive in terms of memory efficiency and performance for smaller datasets.
 
@@ -64,7 +75,7 @@ Liu, B., et al. (2023) focuses on integrating dynamic attention mechanisms into 
 Sun, L., et al. (2023) focuses on the performance of LSTM and GRU models for next-word prediction in low-resource languages. The findings highlight the adaptability of both models to smaller datasets, where their compact architectures outperform more complex models like Transformers.
 
 
-\section*{Objectives}
+\section{Objectives}
 \begin{itemize}
     \item To develop an LSTM-based neural network for next-word prediction using customizable user data.
     \item To build a GRU-based neural network for next-word prediction with customizable user input.
